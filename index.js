@@ -17,3 +17,17 @@ let myCollection = [
   ];
 
   console.log(myCollection);
+
+  function describeItem(){
+    let name = ""
+    let count = 0
+    let whatILike = ""
+    if (count === 1){
+      console.log ("I have a " + name + "Here's what I like about it" + whatILike);
+    } 
+    else {
+      console.log ("I have" + count + name + " s. Here's what I like about them" + whatILike);
+    }
+     
+  }
+  describeItem(myCollection[0]);
